@@ -3,7 +3,6 @@
 3-when Kafka ?
 4-How kakfa works ?
 
-
 ==============================
 A-  What is Kafka?
 
