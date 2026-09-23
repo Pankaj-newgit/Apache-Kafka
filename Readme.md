@@ -4,8 +4,10 @@
 4-How kakfa works ?
 
 ==============================
-A-  What is Kafka?
 
+
+A-  What is Kafka?
+==================
 Apache Kafka is a distributed event-streaming platform used to transfer, store, and process large amounts of data/messages between applications in real time.
 
 Think of Kafka as a middle layer between applications.
@@ -40,7 +42,7 @@ The Payment Service doesn't need to directly communicate with every service.
 
 -------------------------------------------------------------------------------
 2. Why Kafka?
-
+==============
 The main question is:
 
 Why don't applications simply communicate directly?
@@ -93,7 +95,9 @@ Kafka can retain messages for a configured period, allowing consumers to read/re
 
 
 -------------------------------------------------------------------------------------------------
+
 3. When do we use Kafka?
+==========================
 
 Use Kafka when you have large amounts of continuously generated data/events and multiple applications need that data.
 
@@ -149,6 +153,7 @@ Kafka becomes valuable when you have high event volume, multiple consumers, real
 
 ----------------------------------------------------------------------------------------
 4. How does Kafka work?
+   ==================================
 
 I think you mean "How does Kafka work?"
 
@@ -202,8 +207,10 @@ Payment Service
 
 The consumer reads messages from the topic.
 
-Step 6 — Consumer tracks the Offset
 
+==================================
+Step 6 — Consumer tracks the Offset
+==================================
 Example:
 
 Partition 0
